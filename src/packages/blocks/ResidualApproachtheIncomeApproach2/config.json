@@ -1,0 +1,65 @@
+{
+  "id": "ResidualApproachtheIncomeApproach2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ResidualApproachtheIncomeApproach2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ResidualApproachtheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ResidualApproachtheIncomeApproach2": {
+        "file": "ResidualApproachtheIncomeApproach2.tsx",
+        "extends": "ResidualApproachtheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ResidualApproachtheIncomeApproach2Controller",
+            "path": "./ResidualApproachtheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ResidualApproachtheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ResidualApproachtheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ResidualApproachtheIncomeApproach2Block": {
+        "file": "ResidualApproachtheIncomeApproach2Block.tsx",
+        "extends": "ResidualApproachtheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ResidualApproachtheIncomeApproach2Controller",
+            "path": "./ResidualApproachtheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ResidualApproachtheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

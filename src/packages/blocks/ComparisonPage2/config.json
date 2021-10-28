@@ -1,0 +1,65 @@
+{
+  "id": "ComparisonPage2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ComparisonPage2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ComparisonPage2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ComparisonPage2": {
+        "file": "ComparisonPage2.tsx",
+        "extends": "ComparisonPage2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ComparisonPage2Controller",
+            "path": "./ComparisonPage2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ComparisonPage2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ComparisonPage2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ComparisonPage2Block": {
+        "file": "ComparisonPage2Block.tsx",
+        "extends": "ComparisonPage2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ComparisonPage2Controller",
+            "path": "./ComparisonPage2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ComparisonPage2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,859 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pushnotifications User navigates to pushnotifications 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#7266d0"
+    hidesWhenStopped={true}
+    size={50}
+  />
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 2`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <ScrollViewMock
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#ffffffff",
+        "flexGrow": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+    keyboardShouldPersistTaps="always"
+  >
+    <TouchableOpacity
+      activeOpacity={0.7}
+      key="1"
+      onPress={[Function]}
+      testID="notificationItem"
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#e4e4e4",
+            "borderRadius": 15,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "minHeight": 80,
+            "paddingLeft": 16,
+            "paddingRight": 13,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/general-assets/bell.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 14,
+                  "width": 14,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "marginLeft": 11,
+                "opacity": 0.3,
+              }
+            }
+          >
+            21/09/2021
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 6,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "lineHeight": 20,
+                "opacity": 0.7,
+              }
+            }
+          >
+            This is the first push notification title
+          </Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      key="2"
+      onPress={[Function]}
+      testID="notificationItem"
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#e4e4e4",
+            "borderRadius": 15,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "minHeight": 80,
+            "paddingLeft": 16,
+            "paddingRight": 13,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/general-assets/bell.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 14,
+                  "width": 14,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "marginLeft": 11,
+                "opacity": 0.3,
+              }
+            }
+          >
+            21/09/2021
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 6,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "lineHeight": 20,
+                "opacity": 0.7,
+              }
+            }
+          >
+            Second notification
+          </Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+  </ScrollViewMock>
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 3`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <ScrollViewMock
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#ffffffff",
+        "flexGrow": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+    keyboardShouldPersistTaps="always"
+  >
+    <TouchableOpacity
+      activeOpacity={0.7}
+      key="1"
+      onPress={[Function]}
+      testID="notificationItem"
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#e4e4e4",
+            "borderRadius": 15,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "minHeight": 80,
+            "paddingLeft": 16,
+            "paddingRight": 13,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/general-assets/bell.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 14,
+                  "width": 14,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "marginLeft": 11,
+                "opacity": 0.3,
+              }
+            }
+          >
+            21/09/2021
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 6,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "lineHeight": 20,
+                "opacity": 0.7,
+              }
+            }
+          >
+            This is the first push notification title
+          </Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      key="2"
+      onPress={[Function]}
+      testID="notificationItem"
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#e4e4e4",
+            "borderRadius": 15,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "minHeight": 80,
+            "paddingLeft": 16,
+            "paddingRight": 13,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/general-assets/bell.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 14,
+                  "width": 14,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "marginLeft": 11,
+                "opacity": 0.3,
+              }
+            }
+          >
+            21/09/2021
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 6,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 12,
+                "lineHeight": 20,
+                "opacity": 0.7,
+              }
+            }
+          >
+            Second notification
+          </Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+  </ScrollViewMock>
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 4`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1067,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/general-assets/circle.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "justifyContent": "center",
+          "width": 72,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/general-assets/cross.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </ImageBackground>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 16,
+          "marginTop": 12,
+        }
+      }
+    >
+      Sorry!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 12,
+          "marginTop": 6,
+        }
+      }
+    >
+      No Notifications
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 18,
+          "padding": 0,
+          "width": 675,
+        }
+      }
+      testID="btnMoveCatalogue"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Continue Shopping
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 5`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1067,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/general-assets/circle.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "justifyContent": "center",
+          "width": 72,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/general-assets/cross.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </ImageBackground>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 16,
+          "marginTop": 12,
+        }
+      }
+    >
+      Sorry!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 12,
+          "marginTop": 6,
+        }
+      }
+    >
+      No Notifications
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 18,
+          "padding": 0,
+          "width": 675,
+        }
+      }
+      testID="btnMoveCatalogue"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Continue Shopping
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 6`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1067,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/general-assets/circle.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "justifyContent": "center",
+          "width": 72,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/general-assets/cross.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </ImageBackground>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 16,
+          "marginTop": 12,
+        }
+      }
+    >
+      Sorry!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 12,
+          "marginTop": 6,
+        }
+      }
+    >
+      No Notifications
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 18,
+          "padding": 0,
+          "width": 675,
+        }
+      }
+      testID="btnMoveCatalogue"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Continue Shopping
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`pushnotifications User navigates to pushnotifications 7`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#7266d0"
+    barStyle="dark-content"
+    hidden={false}
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1067,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/general-assets/circle.png",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "justifyContent": "center",
+          "width": 72,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/general-assets/cross.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </ImageBackground>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 16,
+          "marginTop": 12,
+        }
+      }
+    >
+      Sorry!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#2f2a2b",
+          "fontSize": 12,
+          "marginTop": 6,
+        }
+      }
+    >
+      No Notifications
+    </Text>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 18,
+          "padding": 0,
+          "width": 675,
+        }
+      }
+      testID="btnMoveCatalogue"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+          }
+        }
+      >
+        Continue Shopping
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

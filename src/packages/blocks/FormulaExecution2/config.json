@@ -1,0 +1,65 @@
+{
+  "id": "FormulaExecution2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FormulaExecution2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FormulaExecution2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FormulaExecution2": {
+        "file": "FormulaExecution2.tsx",
+        "extends": "FormulaExecution2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FormulaExecution2Controller",
+            "path": "./FormulaExecution2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FormulaExecution2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FormulaExecution2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FormulaExecution2Block": {
+        "file": "FormulaExecution2Block.tsx",
+        "extends": "FormulaExecution2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FormulaExecution2Controller",
+            "path": "./FormulaExecution2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FormulaExecution2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

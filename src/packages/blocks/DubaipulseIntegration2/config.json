@@ -1,0 +1,65 @@
+{
+  "id": "DubaipulseIntegration2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DubaipulseIntegration2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DubaipulseIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DubaipulseIntegration2": {
+        "file": "DubaipulseIntegration2.tsx",
+        "extends": "DubaipulseIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DubaipulseIntegration2Controller",
+            "path": "./DubaipulseIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DubaipulseIntegration2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DubaipulseIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DubaipulseIntegration2Block": {
+        "file": "DubaipulseIntegration2Block.tsx",
+        "extends": "DubaipulseIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DubaipulseIntegration2Controller",
+            "path": "./DubaipulseIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DubaipulseIntegration2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

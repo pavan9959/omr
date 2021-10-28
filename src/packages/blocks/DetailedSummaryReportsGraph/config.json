@@ -1,0 +1,65 @@
+{
+  "id": "DetailedSummaryReportsGraph",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DetailedSummaryReportsGraph",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DetailedSummaryReportsGraph"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DetailedSummaryReportsGraph": {
+        "file": "DetailedSummaryReportsGraph.tsx",
+        "extends": "DetailedSummaryReportsGraphController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DetailedSummaryReportsGraphController",
+            "path": "./DetailedSummaryReportsGraphController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DetailedSummaryReportsGraphController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DetailedSummaryReportsGraph"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DetailedSummaryReportsGraphBlock": {
+        "file": "DetailedSummaryReportsGraphBlock.tsx",
+        "extends": "DetailedSummaryReportsGraphController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DetailedSummaryReportsGraphController",
+            "path": "./DetailedSummaryReportsGraphController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DetailedSummaryReportsGraphController"
+          }
+        ]
+      }
+    }
+  }
+}

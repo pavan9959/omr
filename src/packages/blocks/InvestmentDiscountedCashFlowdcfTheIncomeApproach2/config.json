@@ -1,0 +1,65 @@
+{
+  "id": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InvestmentDiscountedCashFlowdcfTheIncomeApproach2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvestmentDiscountedCashFlowdcfTheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvestmentDiscountedCashFlowdcfTheIncomeApproach2": {
+        "file": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2.tsx",
+        "extends": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller",
+            "path": "./InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvestmentDiscountedCashFlowdcfTheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Block": {
+        "file": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Block.tsx",
+        "extends": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller",
+            "path": "./InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvestmentDiscountedCashFlowdcfTheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

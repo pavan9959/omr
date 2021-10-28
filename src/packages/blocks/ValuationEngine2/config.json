@@ -1,0 +1,65 @@
+{
+  "id": "ValuationEngine2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ValuationEngine2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ValuationEngine2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ValuationEngine2": {
+        "file": "ValuationEngine2.tsx",
+        "extends": "ValuationEngine2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ValuationEngine2Controller",
+            "path": "./ValuationEngine2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ValuationEngine2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ValuationEngine2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ValuationEngine2Block": {
+        "file": "ValuationEngine2Block.tsx",
+        "extends": "ValuationEngine2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ValuationEngine2Controller",
+            "path": "./ValuationEngine2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ValuationEngine2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

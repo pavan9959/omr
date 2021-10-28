@@ -1,0 +1,65 @@
+{
+  "id": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2": {
+        "file": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2.tsx",
+        "extends": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller",
+            "path": "./InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Block": {
+        "file": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Block.tsx",
+        "extends": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller",
+            "path": "./InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvestmentTraditionalcapitalizationgrossRentalMultiplicationtheIncomeApproach2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

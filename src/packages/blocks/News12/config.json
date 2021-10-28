@@ -1,0 +1,65 @@
+{
+  "id": "News12",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/News12",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "News12"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "News12": {
+        "file": "News12.tsx",
+        "extends": "News12Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "News12Controller",
+            "path": "./News12Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./News12Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "News12"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "News12Block": {
+        "file": "News12Block.tsx",
+        "extends": "News12Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "News12Controller",
+            "path": "./News12Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./News12Controller"
+          }
+        ]
+      }
+    }
+  }
+}

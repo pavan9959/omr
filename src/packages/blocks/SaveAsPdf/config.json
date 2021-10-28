@@ -1,0 +1,65 @@
+{
+  "id": "SaveAsPdf",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SaveAsPdf",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SaveAsPdf"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SaveAsPdf": {
+        "file": "SaveAsPdf.tsx",
+        "extends": "SaveAsPdfController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SaveAsPdfController",
+            "path": "./SaveAsPdfController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SaveAsPdfController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SaveAsPdf"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SaveAsPdfBlock": {
+        "file": "SaveAsPdfBlock.tsx",
+        "extends": "SaveAsPdfController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SaveAsPdfController",
+            "path": "./SaveAsPdfController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SaveAsPdfController"
+          }
+        ]
+      }
+    }
+  }
+}

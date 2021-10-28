@@ -1,0 +1,65 @@
+{
+  "id": "DocumentOpener",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DocumentOpener",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DocumentOpener"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DocumentOpener": {
+        "file": "DocumentOpener.tsx",
+        "extends": "DocumentOpenerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentOpenerController",
+            "path": "./DocumentOpenerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentOpenerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DocumentOpener"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DocumentOpenerBlock": {
+        "file": "DocumentOpenerBlock.tsx",
+        "extends": "DocumentOpenerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentOpenerController",
+            "path": "./DocumentOpenerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentOpenerController"
+          }
+        ]
+      }
+    }
+  }
+}

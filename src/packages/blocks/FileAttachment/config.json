@@ -1,0 +1,65 @@
+{
+  "id": "FileAttachment",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FileAttachment",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FileAttachment"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FileAttachment": {
+        "file": "FileAttachment.tsx",
+        "extends": "FileAttachmentController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FileAttachmentController",
+            "path": "./FileAttachmentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FileAttachmentController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FileAttachment"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FileAttachmentBlock": {
+        "file": "FileAttachmentBlock.tsx",
+        "extends": "FileAttachmentController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FileAttachmentController",
+            "path": "./FileAttachmentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FileAttachmentController"
+          }
+        ]
+      }
+    }
+  }
+}

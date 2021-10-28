@@ -1,0 +1,65 @@
+{
+  "id": "ComparabletheMarketApproach2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ComparabletheMarketApproach2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ComparabletheMarketApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ComparabletheMarketApproach2": {
+        "file": "ComparabletheMarketApproach2.tsx",
+        "extends": "ComparabletheMarketApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ComparabletheMarketApproach2Controller",
+            "path": "./ComparabletheMarketApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ComparabletheMarketApproach2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ComparabletheMarketApproach2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ComparabletheMarketApproach2Block": {
+        "file": "ComparabletheMarketApproach2Block.tsx",
+        "extends": "ComparabletheMarketApproach2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ComparabletheMarketApproach2Controller",
+            "path": "./ComparabletheMarketApproach2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ComparabletheMarketApproach2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "DepreciatedReplacementCostcontractors2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DepreciatedReplacementCostcontractors2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DepreciatedReplacementCostcontractors2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DepreciatedReplacementCostcontractors2": {
+        "file": "DepreciatedReplacementCostcontractors2.tsx",
+        "extends": "DepreciatedReplacementCostcontractors2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DepreciatedReplacementCostcontractors2Controller",
+            "path": "./DepreciatedReplacementCostcontractors2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DepreciatedReplacementCostcontractors2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DepreciatedReplacementCostcontractors2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DepreciatedReplacementCostcontractors2Block": {
+        "file": "DepreciatedReplacementCostcontractors2Block.tsx",
+        "extends": "DepreciatedReplacementCostcontractors2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DepreciatedReplacementCostcontractors2Controller",
+            "path": "./DepreciatedReplacementCostcontractors2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DepreciatedReplacementCostcontractors2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

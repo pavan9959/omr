@@ -1,0 +1,65 @@
+{
+  "id": "TwilioIntegration2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TwilioIntegration2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TwilioIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TwilioIntegration2": {
+        "file": "TwilioIntegration2.tsx",
+        "extends": "TwilioIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TwilioIntegration2Controller",
+            "path": "./TwilioIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TwilioIntegration2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TwilioIntegration2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TwilioIntegration2Block": {
+        "file": "TwilioIntegration2Block.tsx",
+        "extends": "TwilioIntegration2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TwilioIntegration2Controller",
+            "path": "./TwilioIntegration2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TwilioIntegration2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

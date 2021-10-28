@@ -1,0 +1,65 @@
+{
+  "id": "DetailedSummaryReportWithoutAi3",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DetailedSummaryReportWithoutAi3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DetailedSummaryReportWithoutAi3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DetailedSummaryReportWithoutAi3": {
+        "file": "DetailedSummaryReportWithoutAi3.tsx",
+        "extends": "DetailedSummaryReportWithoutAi3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DetailedSummaryReportWithoutAi3Controller",
+            "path": "./DetailedSummaryReportWithoutAi3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DetailedSummaryReportWithoutAi3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DetailedSummaryReportWithoutAi3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DetailedSummaryReportWithoutAi3Block": {
+        "file": "DetailedSummaryReportWithoutAi3Block.tsx",
+        "extends": "DetailedSummaryReportWithoutAi3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DetailedSummaryReportWithoutAi3Controller",
+            "path": "./DetailedSummaryReportWithoutAi3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DetailedSummaryReportWithoutAi3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

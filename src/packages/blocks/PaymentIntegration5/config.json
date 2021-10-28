@@ -1,0 +1,65 @@
+{
+  "id": "PaymentIntegration5",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PaymentIntegration5",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PaymentIntegration5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PaymentIntegration5": {
+        "file": "PaymentIntegration5.tsx",
+        "extends": "PaymentIntegration5Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PaymentIntegration5Controller",
+            "path": "./PaymentIntegration5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PaymentIntegration5Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PaymentIntegration5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PaymentIntegration5Block": {
+        "file": "PaymentIntegration5Block.tsx",
+        "extends": "PaymentIntegration5Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PaymentIntegration5Controller",
+            "path": "./PaymentIntegration5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PaymentIntegration5Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reviews User navigates to Reviews 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <ScrollViewMock>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Title:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Anonymous
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Account ID
+                
+            </Text>
+            1
+          </Text>
+          <Text
+            numberOfLines={10}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Description:
+                
+            </Text>
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Created At:
+                
+            </Text>
+          </Text>
+        </ScrollViewMock>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "blue",
+        "borderRadius": 4,
+        "display": "flex",
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "width": 120,
+      }
+    }
+    testID="btnAddReview"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add New Review
+    </Text>
+  </TouchableOpacity>
+  <Text>
+    Cannot Find Review for Account 1
+     
+  </Text>
+</ScrollViewMock>
+`;
+
+exports[`reviews User navigates to Reviews 2`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <ScrollViewMock>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Title:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Anonymous
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Account ID
+                
+            </Text>
+            1
+          </Text>
+          <Text
+            numberOfLines={10}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Description:
+                
+            </Text>
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Created At:
+                
+            </Text>
+          </Text>
+        </ScrollViewMock>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "blue",
+        "borderRadius": 4,
+        "display": "flex",
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "width": 120,
+      }
+    }
+    testID="btnAddReview"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add New Review
+    </Text>
+  </TouchableOpacity>
+  <Text>
+    Cannot Find Review for Account 1
+     
+  </Text>
+</ScrollViewMock>
+`;
+
+exports[`reviews User navigates to addReviews 1`] = `
+<KeyboardAvoidingView
+  enabled={true}
+  keyboardVerticalOffset={0}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollViewMock
+    keyboardShouldPersistTaps="always"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+      testID="Background"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Title
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Title"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="title"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000",
+            }
+          }
+        >
+          Description
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="Description"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "borderColor": "#c9c9c9",
+              "borderRadius": 15,
+              "borderWidth": 1,
+              "height": 100,
+              "marginTop": 20,
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+          testID="txtReviews"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "borderColor": "blue",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "marginTop": 10,
+              "paddingVertical": 8,
+            }
+          }
+          testID="btnSubmit"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Add New Review
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </TouchableWithoutFeedback>
+  </ScrollViewMock>
+</KeyboardAvoidingView>
+`;
+
+exports[`reviews User navigates to addReviews 2`] = `
+<KeyboardAvoidingView
+  enabled={true}
+  keyboardVerticalOffset={0}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollViewMock
+    keyboardShouldPersistTaps="always"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+      testID="Background"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Title
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Title"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="title"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000",
+            }
+          }
+        >
+          Description
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="Description"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "borderColor": "#c9c9c9",
+              "borderRadius": 15,
+              "borderWidth": 1,
+              "height": 100,
+              "marginTop": 20,
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+          testID="txtReviews"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "borderColor": "blue",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "marginTop": 10,
+              "paddingVertical": 8,
+            }
+          }
+          testID="btnSubmit"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Add New Review
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </TouchableWithoutFeedback>
+  </ScrollViewMock>
+</KeyboardAvoidingView>
+`;

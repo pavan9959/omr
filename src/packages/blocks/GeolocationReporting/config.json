@@ -1,0 +1,65 @@
+{
+  "id": "GeolocationReporting",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GeolocationReporting",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GeolocationReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GeolocationReporting": {
+        "file": "GeolocationReporting.tsx",
+        "extends": "GeolocationReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GeolocationReportingController",
+            "path": "./GeolocationReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GeolocationReportingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GeolocationReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GeolocationReportingBlock": {
+        "file": "GeolocationReportingBlock.tsx",
+        "extends": "GeolocationReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GeolocationReportingController",
+            "path": "./GeolocationReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GeolocationReportingController"
+          }
+        ]
+      }
+    }
+  }
+}

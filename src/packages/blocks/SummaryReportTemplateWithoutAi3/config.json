@@ -1,0 +1,65 @@
+{
+  "id": "SummaryReportTemplateWithoutAi3",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SummaryReportTemplateWithoutAi3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SummaryReportTemplateWithoutAi3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SummaryReportTemplateWithoutAi3": {
+        "file": "SummaryReportTemplateWithoutAi3.tsx",
+        "extends": "SummaryReportTemplateWithoutAi3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SummaryReportTemplateWithoutAi3Controller",
+            "path": "./SummaryReportTemplateWithoutAi3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SummaryReportTemplateWithoutAi3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SummaryReportTemplateWithoutAi3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SummaryReportTemplateWithoutAi3Block": {
+        "file": "SummaryReportTemplateWithoutAi3Block.tsx",
+        "extends": "SummaryReportTemplateWithoutAi3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SummaryReportTemplateWithoutAi3Controller",
+            "path": "./SummaryReportTemplateWithoutAi3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SummaryReportTemplateWithoutAi3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

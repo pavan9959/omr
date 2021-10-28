@@ -1,0 +1,65 @@
+{
+  "id": "DubaiLandDepartmentdldApi2",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DubaiLandDepartmentdldApi2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DubaiLandDepartmentdldApi2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DubaiLandDepartmentdldApi2": {
+        "file": "DubaiLandDepartmentdldApi2.tsx",
+        "extends": "DubaiLandDepartmentdldApi2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DubaiLandDepartmentdldApi2Controller",
+            "path": "./DubaiLandDepartmentdldApi2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DubaiLandDepartmentdldApi2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DubaiLandDepartmentdldApi2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DubaiLandDepartmentdldApi2Block": {
+        "file": "DubaiLandDepartmentdldApi2Block.tsx",
+        "extends": "DubaiLandDepartmentdldApi2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DubaiLandDepartmentdldApi2Controller",
+            "path": "./DubaiLandDepartmentdldApi2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DubaiLandDepartmentdldApi2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

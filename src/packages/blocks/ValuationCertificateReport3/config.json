@@ -1,0 +1,65 @@
+{
+  "id": "ValuationCertificateReport3",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ValuationCertificateReport3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ValuationCertificateReport3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ValuationCertificateReport3": {
+        "file": "ValuationCertificateReport3.tsx",
+        "extends": "ValuationCertificateReport3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ValuationCertificateReport3Controller",
+            "path": "./ValuationCertificateReport3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ValuationCertificateReport3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ValuationCertificateReport3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ValuationCertificateReport3Block": {
+        "file": "ValuationCertificateReport3Block.tsx",
+        "extends": "ValuationCertificateReport3Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ValuationCertificateReport3Controller",
+            "path": "./ValuationCertificateReport3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ValuationCertificateReport3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

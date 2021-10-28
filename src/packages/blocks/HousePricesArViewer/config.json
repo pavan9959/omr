@@ -1,0 +1,65 @@
+{
+  "id": "HousePricesArViewer",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/HousePricesArViewer",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "HousePricesArViewer"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "HousePricesArViewer": {
+        "file": "HousePricesArViewer.tsx",
+        "extends": "HousePricesArViewerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "HousePricesArViewerController",
+            "path": "./HousePricesArViewerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./HousePricesArViewerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "HousePricesArViewer"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "HousePricesArViewerBlock": {
+        "file": "HousePricesArViewerBlock.tsx",
+        "extends": "HousePricesArViewerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "HousePricesArViewerController",
+            "path": "./HousePricesArViewerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./HousePricesArViewerController"
+          }
+        ]
+      }
+    }
+  }
+}
