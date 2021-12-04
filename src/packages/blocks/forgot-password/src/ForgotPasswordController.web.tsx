@@ -14,6 +14,8 @@ export const configJSON = require("./config");
 
 export interface Props {
   navigation: any;
+  classes:any;
+  // emailValue:any
   // Customizable Area Start
   // Customizable Area End
 }
@@ -33,6 +35,8 @@ interface S {
   token: any;
   enablePasswordField: Boolean;
   btnConfirmPasswordShowHide: Boolean;
+  newPassword:any;
+  confirmPassword:any;
   // Customizable Area End
 }
 
@@ -54,6 +58,23 @@ export default class ForgotPasswordController extends BlockComponent<
   SS
 > {
   // Customizable Area Start
+  //Properties from config
+
+
+  resetPass=()=>{
+    // this.props.navigation.navigate("ResetPassword")
+  }
+
+  navigateToLogin=()=>{
+    this.props.navigation.navigate("EmailAccountLoginBlock")
+  }
+
+  navigateTo=()=>{
+    // this.props.navigation.navigate("ForgotPasswordOTP",{email:this.state.emailValue})
+  }
+  
+
+    // Customizable Area Start
   validationAPICallId: any;
   requestEmailOtpCallId: any;
   requestPhoneOtpCallId: any;
@@ -112,6 +133,9 @@ export default class ForgotPasswordController extends BlockComponent<
 
     runEngine.attachBuildingBlock(this as IBlock, this.subScribedMessages);
 
+
+    
+
     // Customizable Area Start
     //email schema
     let emailSchema = {
@@ -154,7 +178,7 @@ export default class ForgotPasswordController extends BlockComponent<
     };
 
     this.state = {
-      accountType: "sms",
+      accountType: "email",
       accountStatus: "ChooseAccountType",
       emailValue: "",
       phoneValue: "",
@@ -166,7 +190,9 @@ export default class ForgotPasswordController extends BlockComponent<
       passwordSchema: passwordSchema,
       token: "",
       enablePasswordField: true,
-      btnConfirmPasswordShowHide: true
+      btnConfirmPasswordShowHide: true,
+      newPassword:"",
+      confirmPassword:"",
     };
     // Customizable Area End
   }
@@ -202,6 +228,9 @@ export default class ForgotPasswordController extends BlockComponent<
   };
 
   async receive(from: string, message: Message) {
+
+    // console.log("async")
+
     if (getName(MessageEnum.NavigationPayLoadMessage) === message.id) {
       const otpAuthTkn = message.getData(
         getName(MessageEnum.AuthTokenDataMessage)
@@ -282,6 +311,8 @@ export default class ForgotPasswordController extends BlockComponent<
         getName(MessageEnum.RestAPIResponceSuccessMessage)
       );
 
+      console.log(responseJson,"json rsponse")
+
       if (
         responseJson !== undefined &&
         responseJson.meta &&
@@ -319,8 +350,8 @@ export default class ForgotPasswordController extends BlockComponent<
         var errorReponse = message.getData(
           getName(MessageEnum.RestAPIResponceErrorMessage)
         );
-
-        this.parseApiCatchErrorResponse(errorReponse);
+        this.props.navigation.navigate("OTPInputAuth")
+        // this.parseApiCatchErrorResponse(errorReponse);
       }
     } else if (
       getName(MessageEnum.RestAPIResponceMessage) === message.id &&
@@ -420,7 +451,6 @@ export default class ForgotPasswordController extends BlockComponent<
     const header = {
       "Content-Type": configJSON.forgotPasswordAPiContentType
     };
-    console.log(header,"header")
     const requestMessage = new Message(
       getName(MessageEnum.RestAPIRequestMessage)
     );
@@ -440,11 +470,13 @@ export default class ForgotPasswordController extends BlockComponent<
     });
 
     const data = {
-      type: values.accountType ? values.accountType : "email_account",
+      // type: values.accountType ? values.accountType : "email_account",
+      type:"email_account",
       attributes: {
         email: values.email ? values.email : ""
       }
     };
+    console.log(data,"forgot password data")
 
     const httpBody = {
       data: data

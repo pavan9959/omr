@@ -74,6 +74,7 @@ export default class OTPInputAuthController extends BlockComponent<
     this.placeHolderOtp = configJSON.placeHolderOtp;
     // Customizable Area End
   }
+  
 
   async receive(from: String, message: Message) {
     // Customizable Area Start

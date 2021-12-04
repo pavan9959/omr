@@ -15,8 +15,8 @@ import Contactus from "../../blocks/contactus/src/Contactus";
 import AddContactus from "../../blocks/contactus/src/AddContactus";
 import DetailedSummaryReportsGraph from "../../blocks/DetailedSummaryReportsGraph/src/DetailedSummaryReportsGraph";
 import Customform from "../../blocks/customform/src/Customform";
-import ForgotPassword from "../../blocks/forgot-password/src/ForgotPassword";
-import ForgotPasswordOTP from "../../blocks/forgot-password/src/ForgotPasswordOTP";
+import ForgotPassword from "../../blocks/forgot-password/src/ForgotPassword.web";
+import ForgotPasswordOTP from "../../blocks/forgot-password/src/ForgotPasswordOTP.web";
 import NewPassword from "../../blocks/forgot-password/src/NewPassword";
 import Maps from "../../blocks/Maps/src/Maps";
 import Categoriessubcategories from "../../blocks/categoriessubcategories/src/Categoriessubcategories";
@@ -33,10 +33,10 @@ import ContentManagement from "../../blocks/ContentManagement/src/ContentManagem
 import TermsAndConditions from "../../blocks/TermsAndConditions/src/TermsAndConditions";
 import UserGroups from "../../blocks/UserGroups/src/UserGroups";
 import SaveAsPdf from "../../blocks/SaveAsPdf/src/SaveAsPdf";
-import EmailAccountLoginBlock from "../../blocks/email-account-login/src/EmailAccountLoginBlock";
+import EmailAccountLoginBlock from "../../blocks/email-account-login/src/EmailAccountLoginBlock.web";
 import GeolocationReporting from "../../blocks/GeolocationReporting/src/GeolocationReporting";
 import Chatbot6 from "../../blocks/Chatbot6/src/Chatbot6";
-import EmailAccountRegistration from "../../blocks/email-account-registration/src/EmailAccountRegistration";
+import EmailAccountRegistrationWeb from "../../blocks/email-account-registration/src/EmailAccountRegistration.web";
 import DataImportexportcsv from "../../blocks/DataImportexportcsv/src/DataImportexportcsv";
 import DocumentOpener from "../../blocks/DocumentOpener/src/DocumentOpener";
 import Splashscreen from "../../blocks/splashscreen/src/Splashscreen";
@@ -71,7 +71,7 @@ import ValuationCertificateReport3 from "../../blocks/ValuationCertificateReport
 import SocialMediaAccountLoginScreen from "../../blocks/social-media-account-login/src/SocialMediaAccountLoginScreen";
 import Wishlist2 from "../../blocks/Wishlist2/src/Wishlist2";
 import CustomisableUserProfiles from "../../blocks/CustomisableUserProfiles/src/CustomisableUserProfiles";
-import OTPInputAuth from "../../blocks/otp-input-confirmation/src/OTPInputAuth";
+import OTPInputAuth from "../../blocks/otp-input-confirmation/src/OTPInputAuth.web";
 import ValuationEngine2 from "../../blocks/ValuationEngine2/src/ValuationEngine2";
 import BlogPostsManagement from "../../blocks/BlogPostsManagement/src/BlogPostsManagement";
 import DepreciatedReplacementCostcontractors2 from "../../blocks/DepreciatedReplacementCostcontractors2/src/DepreciatedReplacementCostcontractors2";
@@ -86,6 +86,7 @@ import AdvancedSearch from "../../blocks/AdvancedSearch/src/AdvancedSearch";
 import MobileAccountLoginBlock from "../../blocks/mobile-account-login/src/MobileAccountLoginBlock";
 import News12 from "../../blocks/News12/src/News12";
 import DubaipulseIntegration2 from "../../blocks/DubaipulseIntegration2/src/DubaipulseIntegration2";
+import ResetPassword from "../../blocks/forgot-password/src/ResetPassword.web"
 
 
 
@@ -158,7 +159,8 @@ SaveAsPdf:{
 path:"/SaveAsPdf"},
 EmailAccountLoginBlock:{
  component:EmailAccountLoginBlock,
-path:"/EmailAccountLoginBlock"},
+path:"/",
+exact:true},
 GeolocationReporting:{
  component:GeolocationReporting,
 path:"/GeolocationReporting"},
@@ -166,7 +168,7 @@ Chatbot6:{
  component:Chatbot6,
 path:"/Chatbot6"},
 EmailAccountRegistration:{
- component:EmailAccountRegistration,
+ component:EmailAccountRegistrationWeb,
 path:"/EmailAccountRegistration"},
 DataImportexportcsv:{
  component:DataImportexportcsv,
@@ -316,11 +318,11 @@ DubaipulseIntegration2:{
  component:DubaipulseIntegration2,
 path:"/DubaipulseIntegration2"},
 
-  Home: {
-    component: HomeScreen,
-    path: '/',
-    exact: true
-  },
+  // Home: {
+  //   component: HomeScreen,
+  //   path: '/',
+  //   exact: true
+  // },
   InfoPage: {
     component: InfoPage,
     path: '/InfoPage'
@@ -330,6 +332,10 @@ path:"/DubaipulseIntegration2"},
     component: AlertBlock,
     path: "*/AlertWeb",
     modal: true
+  },
+  ResetPassword:{
+    component:ResetPassword,
+    path:"/ResetPassword"
   }
 
 };
@@ -352,12 +358,15 @@ class App extends Component {
     const defaultAnalytics = firebaseAPI.analytics();
     defaultAnalytics.logEvent('APP_Loaded');
     
-    return (
-      <View style={{ height: '100vh', width: '100vw' }}>
-        <TopNav />
+    return (<div style={{width:"100%"}} >
+      {/* // <View style={{ height: '100vh', width: '100vw' }}> */}
+        {/* <TopNav /> */}
+        
         {WebRoutesGenerator({ routeMap })}
         <ModalContainer />
-      </View>
+        
+      {/* // </View> */}
+      </div>
     );
   }
 }
